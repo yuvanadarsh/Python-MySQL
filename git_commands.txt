@@ -1,0 +1,9 @@
+$ git clone https://github.com/yuvanadarsh/Python-MySQL.git
+$ cd Python-MySQL
+$ pwd [gives the current branch]
+$ git branch -a [gives all branches and highlights current branch]
+$ git checkout userInfo [changes branch from main to userInfo]
+$ git status [gives current status if any there are any modified files]
+$ git add MySQL_Project [adds the file to git]
+$ git commit -m "added requirements document" [officially adds the file to git repo with comments in local branch]
+$ git push origin userInfo [pushes the new file to remote branch]
